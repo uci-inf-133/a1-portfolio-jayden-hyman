@@ -16,7 +16,7 @@ function App() {
           </nav>
         </div>
         <div className="right-side">
-          <img src={profilePhoto} alt="Jayden Hyman's Profile Photo" className="pfp" />
+          <img src={profilePhoto} alt="Jayden Hyman" className="pfp" />
         </div>
       </header>
       <main>
