@@ -5,13 +5,13 @@ footer {
     justify-content: center;
     background-color: #1a3149;
     width: 100%;
-    min-height: 30vh;
+    min-height: 20vh;
 }
 
 .contact-form {
     display: flex;
     flex-direction: row;
-    gap: 50px;
+    gap: 2em;
     justify-content: center;
     align-items: center;
 }
@@ -19,22 +19,22 @@ footer {
 .left-form {
     display: flex;
     flex-direction: column;
-    min-width: 200px;
+    min-width: 2em;
 }
 
 .right-form {
     display: flex;
     flex-direction: column;
-    min-width: 200px;
+    min-width: 2em;
 }
 
 #message {
-    margin-bottom: 10px;
-    min-height: 100px;
+    margin-bottom: 0.5em;
+    min-height: 8em;
 }
 
 #name {
-    margin-bottom: 10px;
+    margin-bottom: 0.5em;
 }
 
 .form-label {
@@ -46,3 +46,17 @@ footer {
     font-size: 1.5rem;
     text-align: center;
 }
+
+@media (min-width: 744px) {
+    .contact-form {
+        gap: 3em;
+    }
+
+    .left-form {
+        min-width: 13em;
+    }
+
+    .right-form {
+        min-width: 13em;
+    }
+  }

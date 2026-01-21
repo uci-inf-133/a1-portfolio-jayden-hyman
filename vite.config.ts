@@ -15,12 +15,11 @@ export default defineConfig({
   base: './',
 
   build: {
-    // IMPORTANT: inline *everything* into index.html
-    assetsInlineLimit: 100000000, // large number
-    cssCodeSplit: false,          // keep CSS in one place (then inlined)
+    assetsInlineLimit: 100000000,
+    cssCodeSplit: false,
     rollupOptions: {
       output: {
-        inlineDynamicImports: true, // helps prevent extra chunks
+        inlineDynamicImports: true,
       },
     },
   },
